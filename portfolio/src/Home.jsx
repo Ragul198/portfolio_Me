@@ -331,10 +331,10 @@ const Portfolio = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute bottom-4 left-4 right-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 opacity-0 group-hover:opacity-100">
                     <div className="flex space-x-3">
-                      <a href={project.liveUrl} className="bg-purple-500 p-2 rounded-full hover:bg-purple-600 transition-colors">
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="bg-purple-500 p-2 rounded-full hover:bg-purple-600 transition-colors">
                         <ExternalLink className="w-4 h-4" />
                       </a>
-                      <a href={project.githubUrl} className="bg-gray-700 p-2 rounded-full hover:bg-gray-600 transition-colors">
+                      <a href={project.githubUrl} target='_blank' className="bg-gray-700 p-2 rounded-full hover:bg-gray-600 transition-colors">
                         <Github className="w-4 h-4" />
                       </a>
                     </div>

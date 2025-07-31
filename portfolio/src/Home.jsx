@@ -91,6 +91,15 @@ const Portfolio = () => {
       tags: ["MERN Stack", "JWT Auth", "Socket.io", "Tailwind CSS"],
       liveUrl: "https://chatapp-forntend.vercel.app/",
       githubUrl: "https://github.com/Ragul198/CHATAPP"
+    },
+    {
+      id: 5,
+      title: "Personal Portfolio",
+      description: "Simple Portfolio using React and Tailwind CSS to showcase my projects, experience, and contact links.",
+      image: "https://i.postimg.cc/44VWcDcR/Screenshot-2025-07-31-095406.png",
+      tags: ["React", "Tailwind CSS"],
+      liveUrl: "https://portfolio-me-three-chi.vercel.app/",
+      githubUrl: "https://github.com/Ragul198/portfolio_Me"
     }
   ];
 

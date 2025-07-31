@@ -80,7 +80,7 @@ const Portfolio = () => {
       description: "Streaming platform clone with user authentication, video playback, and personalized recommendations.",
       image: "https://i.postimg.cc/vTLxmHkh/Screenshot-2025-07-31-091042.png",
       tags: ["React", "Firebase", "TMDB API"],
-      liveUrl: "https://netflix-clone-two-gamma-11.vercel.app/",
+      liveUrl: "https://movie-clone-two-gamma-11.vercel.app/",
       githubUrl: "https://github.com/Ragul198/Netflix_clone"
     },
     {
